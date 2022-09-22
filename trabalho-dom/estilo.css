@@ -6,9 +6,13 @@
 }
 
 .container {
+    background-color: #fff;
     margin: 80px auto;
     max-width: 640px;
-    width: 100%;
+    width: 70%;
+    padding: 20px;
+    left: 0;
+    top: 0;
 }
 
 form {
@@ -23,6 +27,7 @@ input, button {
 }
 
 h1 {
+    text-align: center;
     color: blue;
 }
 
