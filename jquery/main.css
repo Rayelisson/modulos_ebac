@@ -22,6 +22,11 @@
    
 }
 
+.list{
+    text-decoration: line-through;
+    color: #fff;
+}
+
 
 .container {
     background-image: url("fundo.jpg");
@@ -65,4 +70,18 @@ button {
 
 form {
     margin-top: 40px;
+}
+
+.lista {
+    max-width: 320px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+li {
+    cursor: pointer;
+}
+
+.risco {
+    text-decoration: line-through;
 }

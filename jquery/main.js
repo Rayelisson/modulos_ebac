@@ -8,11 +8,12 @@ $(document).ready(function(){
         $(novaTarefa).html(tarefa);
         $(novaTarefa).appendTo("ul");
 
+
         $('#tarefa').val('');
         console.log(tarefa);
     });
 
-});
+})
 
 function riscar(x){
     idParariscar = x.id;
